@@ -1,0 +1,63 @@
+* {
+  font-family: var(--font-base);
+}
+
+h1 {
+  font-size: 4.8rem;
+  font-weight: var(--font-medium);
+}
+
+h2 {
+  font-size: 3.6rem;
+  font-weight: var(--font-bold);
+}
+
+h3 {
+  font-size: 3.2rem;
+  font-weight: var(--font-medium);
+}
+
+h4 {
+  font-size: 2.8rem;
+  font-weight: var(--font-medium);
+}
+
+h5 {
+  font-size: 2.4rem;
+  font-weight: var(--font-medium);
+}
+
+h5,
+h6 {
+  font-weight: var(--font-regular);
+}
+
+h6 {
+  font-size: 1.8rem;
+}
+
+p,
+span,
+strong {
+  font-size: 1.6rem;
+  color: var(--color-text);
+  font-weight: var(--font-regular);
+}
+
+strong {
+  font-weight: var(--font-medium);
+}
+
+pre,
+pre > *,
+pre > code * {
+  font-family: var(--font-monospace) !important;
+}
+
+a {
+  padding-bottom: 2px;
+  text-decoration: none;
+  display: inline-block;
+  color: var(--color-main);
+  font-weight: var(--font-medium);
+}

@@ -1,0 +1,36 @@
+.container {
+  width: 92%;
+  max-width: 165rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 1000px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 72%;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.m-sm {
+  margin: 1rem;
+}
+
+.m-md {
+  margin: 3rem;
+}

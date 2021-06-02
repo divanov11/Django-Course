@@ -1,0 +1,28 @@
+.tag {
+  display: inline-block;
+  background-color: var(--color-sub);
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.tag > small {
+  color: var(--color-white);
+}
+
+.tag--outline > small {
+  color: var(--color-sub);
+}
+
+.tag--outline {
+  border: 2px solid var(--color-sub);
+  background-color: transparent;
+  padding: 0.4rem 1rem;
+}
