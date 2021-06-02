@@ -5,9 +5,18 @@
   box-sizing: border-box;
 }
 
+.container--narrow {
+  width: 92%;
+  max-width: 120rem;
+}
+
 @media screen and (min-width: 1000px) {
   .container {
     width: 90%;
+  }
+
+  .container--narrow {
+    width: 85%;
   }
 }
 
@@ -15,11 +24,19 @@
   .container {
     width: 80%;
   }
+
+  .container--narrow {
+    width: 72%;
+  }
 }
 
 @media screen and (min-width: 1440px) {
   .container {
     width: 72%;
+  }
+
+  .container--narrow {
+    width: 65%;
   }
 }
 

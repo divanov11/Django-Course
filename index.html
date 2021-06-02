@@ -16,12 +16,49 @@
   </head>
   <body>
     <!-- Header Section -->
-    <header class="text-center">
-      <a href="/">
-        <h1>devsearch</h1>
-      </a>
+    <header class="header">
+      <div class="container container--narrow">
+        <a href="/" class="header__logo">
+          <img src="images/logo.svg" alt="DevSearch Logo" />
+        </a>
+        <nav class="header__nav">
+          <ul>
+            <li class="header__navItem"><a href="#">Find Developers</a></li>
+            <li class="header__navItem"><a href="#">Skills</a></li>
+            <li class="header__navItem"><a href="#">My Account</a></li>
+            <li class="header__navItem"><a href="#" class="btn btn--sub">Sign Up</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
+
     <!-- Main Section -->
-    <main></main>
+    <main>
+      <section class="hero-section text-center">
+        <div class="container container--narrow">
+          <div class="hero-section__box">
+            <h2>CONNECT WITH <span>DEVELOPERS</span></h2>
+            <h2>FROM AROUND THE WORLD</h2>
+          </div>
+
+          <div class="hero-section__search">
+            <form class="form" action="#" method="get">
+              <div class="form__field">
+                <label for="formInput#search">Full Name: </label>
+                <input
+                  class="input input--text"
+                  id="formInput#search"
+                  type="text"
+                  name="text"
+                  placeholder="Search by developer name"
+                />
+              </div>
+
+              <input class="btn btn--sub btn--lg" type="submit" value="Search" />
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
