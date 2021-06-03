@@ -23,9 +23,10 @@
   transition: all 0.3s ease-in-out;
 }
 
-.btn:disabled {
+.btn:disabled,
+.btn--disabled {
   cursor: not-allowed;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 .btn:hover {

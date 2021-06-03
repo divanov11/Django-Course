@@ -14,6 +14,7 @@
 
     <title>DevSearch - Connect with Developers!</title>
   </head>
+
   <body>
     <!-- Header Section -->
     <header class="header">
@@ -22,11 +23,16 @@
           <img src="images/logo.svg" alt="DevSearch Logo" />
         </a>
         <nav class="header__nav">
-          <ul>
-            <li class="header__navItem"><a href="#">Find Developers</a></li>
-            <li class="header__navItem"><a href="#">Skills</a></li>
-            <li class="header__navItem"><a href="#">My Account</a></li>
-            <li class="header__navItem"><a href="#" class="btn btn--sub">Sign Up</a></li>
+          <input type="checkbox" id="responsive-menu" />
+          <label for="responsive-menu" class="toggle-menu">
+            <span>Menu</span>
+            <div class="toggle-menu__lines"></div>
+          </label>
+          <ul class="header__menu">
+            <li class="header__menuItem"><a href="#">Find Developers</a></li>
+            <li class="header__menuItem"><a href="#">Skills</a></li>
+            <li class="header__menuItem"><a href="#">My Account</a></li>
+            <li class="header__menuItem"><a href="#" class="btn btn--sub">Sign Up</a></li>
           </ul>
         </nav>
       </div>
@@ -59,32 +65,203 @@
           </div>
         </div>
       </section>
-      <div class="developers">
+      <!-- Search Result: DevList -->
+      <section class="devlist">
         <div class="container">
           <div class="grid grid--three">
-            <div class="column">1</div>
-            <div class="column">2</div>
-            <div class="column">2</div>
-            <div class="column">2</div>
-            <div class="column">2</div>
-          </div>
-
-          <div class="layout">
-            <div class="column column--1of2">1</div>
-            <div class="column column--1of2">1</div>
-          </div>
-
-          <div class="layout">
-            <div class="column column--1of3">1</div>
-            <div class="column column--1of3">1</div>
-            <div class="column column--1of3">1</div>
-          </div>
-
-          <div class="layout">
-            <div class="column column--1of3">1</div>
-            <div class="column column--2of3">1</div>
+            <div class="column dev">
+              <div class="card">
+                <a href="#" class="card__body">
+                  <div class="dev__profile">
+                    <img src="https://avatars.githubusercontent.com/u/22437186" alt="image" />
+                    <div class="dev__meta">
+                      <h3>Shahriar P. Shuvo</h3>
+                      <h5>FullStack Web Designer & Developer</h5>
+                    </div>
+                  </div>
+                  <p class="dev__info">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, ducimus inventore! Sunt,
+                    veniam veritatis? Veritatis placeat, deleniti iure tempore veniam perspiciatis, soluta cupiditate
+                    animi, exercitationem molestias nam doloremque architecto odit.
+                  </p>
+                  <div class="dev__skills">
+                    <span class="tag tag--pill tag--main">
+                      <small>JavaScript</small>
+                    </span>
+                    <span class="tag tag--pill tag--main">
+                      <small>React</small>
+                    </span>
+                    <span class="tag tag--pill tag--main">
+                      <small>SCSS</small>
+                    </span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="column dev">
+              <div class="card">
+                <a href="#" class="card__body">
+                  <div class="dev__profile">
+                    <img src="https://avatars.githubusercontent.com/u/1868782" alt="image" />
+                    <div class="dev__meta">
+                      <h3>Cody Seibert</h3>
+                      <h5>React Developer, Coding Youtuber</h5>
+                    </div>
+                  </div>
+                  <p class="dev__info">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, ducimus inventore! Sunt,
+                    veniam veritatis? Veritatis placeat, deleniti iure tempore veniam perspiciatis, soluta cupiditate
+                    animi, exercitationem molestias nam doloremque architecto odit.
+                  </p>
+                  <div class="dev__skills">
+                    <span class="tag tag--pill tag--main">
+                      <small>Elixir</small>
+                    </span>
+                    <span class="tag tag--pill tag--main">
+                      <small>F#</small>
+                    </span>
+                    <span class="tag tag--pill tag--main">
+                      <small>.NET</small>
+                    </span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="column dev">
+              <div class="card">
+                <a href="#" class="card__body">
+                  <div class="dev__profile">
+                    <img src="https://avatars.githubusercontent.com/u/33843378" alt="image" />
+                    <div class="dev__meta">
+                      <h3>Dennis Ivy</h3>
+                      <h5>Python & Django Developer</h5>
+                    </div>
+                  </div>
+                  <p class="dev__info">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, ducimus inventore! Sunt,
+                    veniam veritatis? Veritatis placeat, deleniti iure tempore veniam perspiciatis, soluta cupiditate
+                    animi, exercitationem molestias nam doloremque architecto odit.
+                  </p>
+                  <div class="dev__skills">
+                    <span class="tag tag--pill tag--main">
+                      <small>Python</small>
+                    </span>
+                    <span class="tag tag--pill tag--main">
+                      <small>Django</small>
+                    </span>
+                    <span class="tag tag--pill tag--main">
+                      <small>Rest API</small>
+                    </span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="column dev">
+              <div class="card">
+                <a href="#" class="card__body">
+                  <div class="dev__profile">
+                    <img src="https://avatars.githubusercontent.com/u/22437186" alt="image" />
+                    <div class="dev__meta">
+                      <h3>Shahriar P. Shuvo</h3>
+                      <h5>FullStack Web Designer & Developer</h5>
+                    </div>
+                  </div>
+                  <p class="dev__info">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, ducimus inventore! Sunt,
+                    veniam veritatis? Veritatis placeat, deleniti iure tempore veniam perspiciatis, soluta cupiditate
+                    animi, exercitationem molestias nam doloremque architecto odit.
+                  </p>
+                  <div class="dev__skills">
+                    <span class="tag tag--pill tag--main">
+                      <small>JavaScript</small>
+                    </span>
+                    <span class="tag tag--pill tag--main">
+                      <small>React</small>
+                    </span>
+                    <span class="tag tag--pill tag--main">
+                      <small>SCSS</small>
+                    </span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="column dev">
+              <div class="card">
+                <a href="#" class="card__body">
+                  <div class="dev__profile">
+                    <img src="https://avatars.githubusercontent.com/u/22437186" alt="image" />
+                    <div class="dev__meta">
+                      <h3>Shahriar P. Shuvo</h3>
+                      <h5>FullStack Web Designer & Developer</h5>
+                    </div>
+                  </div>
+                  <p class="dev__info">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, ducimus inventore! Sunt,
+                    veniam veritatis? Veritatis placeat, deleniti iure tempore veniam perspiciatis, soluta cupiditate
+                    animi, exercitationem molestias nam doloremque architecto odit.
+                  </p>
+                  <div class="dev__skills">
+                    <span class="tag tag--pill tag--main">
+                      <small>JavaScript</small>
+                    </span>
+                    <span class="tag tag--pill tag--main">
+                      <small>React</small>
+                    </span>
+                    <span class="tag tag--pill tag--main">
+                      <small>SCSS</small>
+                    </span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="column dev">
+              <div class="card">
+                <a href="#" class="card__body">
+                  <div class="dev__profile">
+                    <img src="https://avatars.githubusercontent.com/u/22437186" alt="image" />
+                    <div class="dev__meta">
+                      <h3>Shahriar P. Shuvo</h3>
+                      <h5>FullStack Web Designer & Developer</h5>
+                    </div>
+                  </div>
+                  <p class="dev__info">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, ducimus inventore! Sunt,
+                    veniam veritatis? Veritatis placeat, deleniti iure tempore veniam perspiciatis, soluta cupiditate
+                    animi, exercitationem molestias nam doloremque architecto odit.
+                  </p>
+                  <div class="dev__skills">
+                    <span class="tag tag--pill tag--main">
+                      <small>JavaScript</small>
+                    </span>
+                    <span class="tag tag--pill tag--main">
+                      <small>React</small>
+                    </span>
+                    <span class="tag tag--pill tag--main">
+                      <small>SCSS</small>
+                    </span>
+                  </div>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
+      </section>
+
+      <div class="pagination">
+        <ul class="container">
+          <li><a href="#" class="btn btn--disabled">&#10094; Prev</a></li>
+          <li><a href="#" class="btn btn--sub">01</a></li>
+          <li><a href="#" class="btn">02</a></li>
+          <li><a href="#" class="btn">03</a></li>
+          <li><a href="#" class="btn">04</a></li>
+          <li><a href="#" class="btn">05</a></li>
+          <li><a href="#" class="btn">06</a></li>
+          <li><a href="#" class="btn">07</a></li>
+          <li><a href="#" class="btn">08</a></li>
+          <li><a href="#" class="btn">09</a></li>
+          <li><a href="#" class="btn">10</a></li>
+          <li><a href="#" class="btn">Next &#10095;</a></li>
+        </ul>
       </div>
     </main>
   </body>

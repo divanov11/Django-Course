@@ -8,8 +8,8 @@
   width: -moz-fit-content;
   width: fit-content;
   border-radius: 0.5rem;
-  padding: 0.5rem 1rem;
-  font-size: 1.4rem;
+  padding: 0.5rem 1.5rem;
+  font-size: 1.2rem;
   cursor: pointer;
 }
 
@@ -25,4 +25,17 @@
   border: 2px solid var(--color-sub);
   background-color: transparent;
   padding: 0.4rem 1rem;
+}
+
+.tag--pill {
+  border-radius: 5rem;
+}
+
+.tag--main {
+  background: var(--color-main-light);
+}
+
+.tag--main > small {
+  color: var(--color-main);
+  font-weight: 500;
 }
