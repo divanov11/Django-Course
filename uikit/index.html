@@ -274,6 +274,93 @@
       </pre>
     </div>
 
+    <!-- Grid and Layout -->
+
+    <div class="mumble-block mumble-block--alert">
+      <h1 class="mumble-block__title">Grid and Layout</h1>
+      <p class="mumble-block__info">Mumble UI is based on 3 columns layout. The main difference between grid and layout is that the grid can grow and can be used for listing items where the layout is fixed to certain number of children. By default the grid and layout comes with mobile responsiveness.</p>
+      <div class="mumble-block__preview">
+        <div class="container">
+          <h5 class="text-center m-sm">Grid</h3>
+          <div class="grid grid--three">
+            <div class="column">1</div>
+            <div class="column">2</div>
+            <div class="column">3</div>
+            <div class="column">4</div>
+            <div class="column">5</div>
+          </div>
+
+          <div class="grid grid--two">
+            <div class="column">1</div>
+            <div class="column">2</div>
+            <div class="column">3</div>
+            <div class="column">4</div>
+            <div class="column">5</div>
+          </div>
+
+          <h5 class="text-center m-sm">Layout</h3>
+          <div class="layout">
+            <div class="column column--1of2">1 0f 2</div>
+            <div class="column column--1of2">1 of 2</div>
+          </div>
+
+          <div class="layout">
+            <div class="column column--1of3">1 of 3</div>
+            <div class="column column--1of3">1 of 3</div>
+            <div class="column column--1of3">1 of 3</div>
+          </div>
+
+          <div class="layout">
+            <div class="column column--1of3">1 of 3</div>
+            <div class="column column--2of3">3 of 1</div>
+          </div>
+        </div>
+      </div>
+
+      <pre class="codeblock">
+        <code class="html">
+          <div class="container">
+            &lt;!-- Grid 3 Columns --&gt;
+            &lt;div class="grid grid--three"&gt;
+              &lt;div class="column"&gt;1&lt;/div&gt;
+              &lt;div class="column"&gt;2&lt;/div&gt;
+              &lt;div class="column"&gt;3&lt;/div&gt;
+              &lt;div class="column"&gt;4&lt;/div&gt;
+              &lt;div class="column"&gt;5&lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;!-- Grid 2 Columns --&gt;
+            &lt;div class="grid grid--two"&gt;
+              &lt;div class="column"&gt;1&lt;/div&gt;
+              &lt;div class="column"&gt;2&lt;/div&gt;
+              &lt;div class="column"&gt;3&lt;/div&gt;
+              &lt;div class="column"&gt;4&lt;/div&gt;
+              &lt;div class="column"&gt;5&lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;!-- 2 Columns Layout --&gt;
+            &lt;div class="layout"&gt;
+              &lt;div class="column column--1of2"&gt;1 of 2&lt;/div&gt;
+              &lt;div class="column column--1of2"&gt;1 of 2&lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;!-- 3 Columns Layout --&gt;
+            &lt;div class="layout"&gt;
+              &lt;div class="column column--1of3"&gt;1 of 3&lt;/div&gt;
+              &lt;div class="column column--1of3"&gt;1 of 3&lt;/div&gt;
+              &lt;div class="column column--1of3"&gt;1 of 3&lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;!-- 3 Columns Uneven Layout --&gt;
+            &lt;div class="layout"&gt;
+              &lt;div class="column column--1of3"&gt;1 of 3&lt;/div&gt;
+              &lt;div class="column column--2of3"&gt;2 of 3&lt;/div&gt;
+            &lt;/div>
+          </div>
+        </code>
+      </pre>
+    </div>
+
     <!-- Form -->
     <div class="mumble-block mumble-block--form">
       <h1 class="mumble-block__title">Form and Inputs</h1>

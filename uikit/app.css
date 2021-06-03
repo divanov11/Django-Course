@@ -92,3 +92,13 @@ pre.codeblock {
 .codeblock--loading {
   margin-top: 12rem;
 }
+
+.layout {
+  background: var(--color-main-light);
+}
+.layout > .column,
+.grid > .column {
+  color: var(--color-light);
+  text-align: center;
+  background: var(--color-main);
+}
