@@ -392,6 +392,8 @@ img {
   }
 }
 
+/*========== Projects ==========*/
+
 .project__thumbnail {
   height: 25rem;
   object-fit: cover;
@@ -407,6 +409,72 @@ img {
 .project__info {
   margin: 1rem 0;
   font-size: 1.4rem;
+}
+
+/*=======================
+  Single Projects
+========================*/
+
+.singleProject .column--1of3 {
+  order: 2;
+}
+
+@media screen and (min-width: 1081px) {
+  .singleProject .column--1of3 {
+    order: 1;
+  }
+  .singleProject .column--2of3 {
+    order: 2;
+  }
+}
+
+.singleProject__toolStack {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.singleProject__liveLink {
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+  border-bottom: 2px solid transparent;
+}
+
+.singleProject__liveLink:hover {
+  font-weight: 500;
+  border-bottom: 2px solid var(--color-main);
+}
+
+.singleProject__liveLink i {
+  display: inline-block;
+  font-size: 1.6rem;
+  margin-right: 1rem;
+}
+
+.singleProject__preview {
+  height: 50vh;
+  object-fit: cover;
+  object-position: top center;
+  margin-bottom: 3rem;
+}
+
+.singleProject__developer {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.singleProject__title {
+  font-size: 3.6rem;
+  font-weight: 700;
+  color: var(--color-sub);
+  margin-bottom: 3rem;
+}
+
+.singleProject__subtitle {
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: var(--color-sub-light);
+  margin-bottom: 1rem;
 }
 
 /*=======================
