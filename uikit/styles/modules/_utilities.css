@@ -51,3 +51,27 @@
 .m-md {
   margin: 3rem;
 }
+
+.m-lg {
+  margin: 5rem;
+}
+
+.m-xl {
+  margin: 5rem;
+}
+
+.my-sm {
+  margin: 1rem auto;
+}
+
+.my-md {
+  margin: 3rem auto;
+}
+
+.my-lg {
+  margin: 5rem auto;
+}
+
+.my-xl {
+  margin: auto;
+}
