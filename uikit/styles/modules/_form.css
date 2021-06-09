@@ -18,9 +18,10 @@
   font-size: 1.4rem;
 }
 
-.form__label {
+.form__label,
+.form__field > label {
   display: block;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.5rem;
   color: var(--color-text);
 }
 

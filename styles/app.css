@@ -403,3 +403,83 @@ img {
   margin: 1rem 0;
   font-size: 1.4rem;
 }
+
+/*=======================
+  Login/SignUp
+========================*/
+
+.auth {
+  width: 100%;
+  position: relative;
+  z-index: 111;
+  background: transparent;
+  height: 99vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth::after {
+  z-index: -1;
+  opacity: 0.1;
+  content: '';
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: url(../images/pattern.jpg);
+}
+
+.auth > .card {
+  padding: 3rem 4rem;
+  width: 95%;
+  max-width: 65rem;
+}
+
+@media screen and (min-width: 650px) {
+  .auth > .card {
+    padding: 5rem 8rem;
+    width: 95%;
+    max-width: 65rem;
+  }
+}
+
+.auth__header h3 {
+  color: var(--color-sub);
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+.auth__header p {
+  font-weight: 400;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.auth__form {
+  margin: 3rem 0;
+}
+
+.auth .auth__form label,
+.auth .auth__alternative p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--color-sub-light);
+}
+
+.auth .auth__actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2.5rem 0;
+}
+.auth .auth__actions a {
+  text-decoration: underline;
+}
+
+.auth .auth__alternative a {
+  font-size: 2rem;
+  font-weight: 500;
+}
