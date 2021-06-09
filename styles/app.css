@@ -276,7 +276,9 @@
   text-align: justify;
 }
 
-/* Pagination */
+/*=======================
+  Pagination
+========================*/
 .pagination {
   margin-top: 8rem;
   margin-bottom: 10rem;
