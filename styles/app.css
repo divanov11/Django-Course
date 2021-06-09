@@ -60,6 +60,11 @@ img {
   pointer-events: all;
 }
 
+.project--thumbnail{
+  height: 250px;
+  object-fit: cover;
+}
+
 @media screen and (max-width: 800px) {
   .header__logo {
     position: relative;
