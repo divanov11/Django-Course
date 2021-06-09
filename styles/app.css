@@ -60,7 +60,7 @@ img {
   pointer-events: all;
 }
 
-.project--thumbnail{
+.project--thumbnail {
   height: 250px;
   object-fit: cover;
 }
@@ -392,19 +392,19 @@ img {
   }
 }
 
-.portfolio > img {
+.project__thumbnail {
   height: 25rem;
   object-fit: cover;
   object-position: top center;
 }
 
-.portfolio__title {
+.project__title {
   font-size: 2rem;
   font-weight: 700;
   color: var(--color-sub);
 }
 
-.portfolio__info {
+.project__info {
   margin: 1rem 0;
   font-size: 1.4rem;
 }
