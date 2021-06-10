@@ -392,14 +392,11 @@ img {
   .devSkill {
     display: flex;
     justify-content: space-between;
-  }
-
-  .devSkill__title {
-    flex-basis: 20%;
+    gap: 3rem;
   }
 
   .devSkill__info {
-    flex-basis: 75%;
+    flex-basis: 80%;
   }
 }
 
