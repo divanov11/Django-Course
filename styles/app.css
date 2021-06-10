@@ -505,6 +505,40 @@ img {
   text-align: justify;
 }
 
+/*========== Comments ==========*/
+
+.comments {
+  margin-top: 4rem;
+  padding-top: 3rem;
+  border-top: 2px solid var(--color-light);
+}
+
+.comments .form label {
+  position: absolute;
+  margin: -9999px;
+}
+
+.commentList {
+  margin: 3rem 0;
+}
+
+.comment {
+  display: flex;
+  gap: 2rem;
+}
+
+.comment:not(:last-child) {
+  margin-bottom: 3rem;
+}
+
+.comment__author {
+  font-size: 1.8rem;
+}
+
+.comment__info {
+  font-size: 1.45rem;
+}
+
 /*=======================
   Login/SignUp
 ========================*/
