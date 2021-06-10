@@ -1,5 +1,6 @@
 .tag {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   background-color: var(--color-sub);
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -36,20 +37,16 @@
   border-radius: 5rem;
 }
 
-.tag--main {
-  background: var(--color-main-light);
-}
-
+.tag--main,
 .tag--main > small {
+  background: var(--color-main-light);
   color: var(--color-main);
   font-weight: 500;
 }
 
-.tag--sub {
-  background: var(--color-sub-lighter);
-}
-
+.tag--sub,
 .tag--sub > small {
+  background: var(--color-sub-lighter);
   color: var(--color-sub-light);
   font-weight: 500;
 }

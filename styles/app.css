@@ -14,6 +14,11 @@ img {
   width: 100%;
 }
 
+.tag > i.im {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
 /*=======================
   Header Section
 ========================*/
@@ -317,6 +322,11 @@ img {
   padding: 4rem;
 }
 
+.dev__avatar {
+  display: block;
+  margin: auto;
+}
+
 .dev__name {
   color: var(--color-sub);
   font-size: 2.8rem;
@@ -537,6 +547,75 @@ img {
 
 .comment__info {
   font-size: 1.45rem;
+}
+
+/*=======================
+  Account Settings
+========================*/
+
+.settingsPage .dev > .settings__btn {
+  display: inline-block;
+  margin-bottom: 3rem;
+}
+
+.settings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.settings__title {
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--color-sub);
+}
+
+.settings__table {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  padding: 0 3rem;
+  background: var(--color-white);
+}
+
+.settings__table tr {
+  width: 100%;
+}
+
+.settings__table tr > td {
+  padding: 2rem 0;
+}
+
+.settings__table tr:not(:last-child) td {
+  border-bottom: 2px solid var(--color-white-light);
+}
+
+.settings__thumbnail {
+  width: 23%;
+  min-width: 10rem;
+}
+
+.settings__thumbnail img {
+  padding-right: 3rem;
+  height: 15rem;
+  object-fit: contain;
+}
+
+.settings__tableInfo h4,
+.settings__tableInfo a {
+  padding-right: 1rem;
+  width: auto;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--color-sub);
+}
+
+.settings__tableInfo p {
+  font-size: 1.4rem;
+}
+
+.settings__tableActions {
+  text-align: right;
 }
 
 /*=======================
