@@ -464,6 +464,11 @@ img {
   margin-bottom: 3rem;
 }
 
+.project__author{
+  font-size: 1.4rem;
+  font-style: italic;
+}
+
 .singleProject__subtitle {
   text-transform: uppercase;
   font-size: 2.4rem;
@@ -810,4 +815,24 @@ img {
 
 .backButton i {
   font-size: 1.8rem;
+}
+
+
+/*=======================
+  Form Page
+========================*/
+
+.formPage .formWrapper {
+  list-style: none;
+  background: var(--color-white);
+  padding: 3.5rem 5rem;
+  border: 2px solid var(--color-light);
+  border-radius: 0.7rem;
+}
+
+.formPage .formWrapper__subject {
+  font-size: 2.8rem;
+  color: var(--color-sub);
+  margin-bottom: 1rem;
+  margin-top: 2rem;
 }
