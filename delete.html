@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <!-- Icon - IconMonster -->
+    <link rel="stylesheet" href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css" />
+    <!-- Mumble UI -->
+    <link rel="stylesheet" href="uikit/styles/uikit.css" />
+    <!-- Dev Search UI -->
+    <link rel="stylesheet" href="styles/app.css" />
+
+    <title>DevSearch - Connect with Developers!</title>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container container--narrow">
+            <a href="/" class="header__logo">
+                <img src="images/logo.svg" alt="DevSearch Logo" />
+            </a>
+            <nav class="header__nav">
+                <input type="checkbox" id="responsive-menu" />
+                <label for="responsive-menu" class="toggle-menu">
+                    <span>Menu</span>
+                    <div class="toggle-menu__lines"></div>
+                </label>
+                <ul class="header__menu">
+                    <li class="header__menuItem"><a href="index.html">Developers</a></li>
+                    <li class="header__menuItem"><a href="projects.html">Projects</a></li>
+                    <li class="header__menuItem"><a href="inbox.html">Inbox</a></li>
+                    <li class="header__menuItem"><a href="account.html">My Account</a></li>
+                    <li class="header__menuItem"><a href="login.html" class="btn btn--sub">Login/Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Section -->
+    <main class="formPage my-xl">
+        <div class="content-box">
+            <div class="formWrapper">
+                <a class="backButton" href="#"><i class="im im-angle-left"></i></a>
+                <br>
+
+                <form class="form" method="POST">
+                    <p>Are your sure you want to delete this "OBJECT NAME"?</p>
+                    <a class="btn btn--sub btn--lg  my-md" href="#">&#x2190 Go Back</a>
+                    <input class="btn btn--sub btn--lg  my-md" type="submit" value="Delete" />
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
