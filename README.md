@@ -27,7 +27,7 @@ Tempalte for FullStack Django Beginners course.
 <img src="./images/Devsearch Home.jpg">  
 
 # Projects Page
-<img src="./images/DevSearch Projects.jpg.jpg">  
+<img src="./images/DevSearch Projects.jpg">  
 
 # Profile Page
 <img src="./images/Devsearch Profile.jpg">  
