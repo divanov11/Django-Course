@@ -13,5 +13,28 @@ Tempalte for FullStack Django Beginners course.
 * Database Design and Models
 * Static Files
 * User Registration & Authenticaiton
+* Search
+* Pagination
+* Building an API with Django REST Framework (DRF)
+* Deployment
 
+# Tech Stack
+* Django
+* Postgres
+* Django REST Framework
+
+# Home Page
 <img src="./images/Devsearch Home.jpg">  
+
+# Projects Page
+<img src="./images/Devsearch Projects.jpg">  
+
+# Projects Page
+<img src="./images/Devsearch Projects.jpg">  
+
+# Profile Page
+<img src="./images/Devsearch Profile.jpg">  
+
+# User Inbox
+<img src="./images/Devsearch Inbox.jpg">  
+
