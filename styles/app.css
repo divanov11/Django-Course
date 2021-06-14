@@ -608,6 +608,10 @@ img {
   object-fit: contain;
 }
 
+.settings__tableInfo{
+  width: 100%;
+}
+
 .settings__tableInfo h4,
 .settings__tableInfo a {
   padding-right: 1rem;
