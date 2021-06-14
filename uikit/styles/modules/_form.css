@@ -58,6 +58,7 @@ input.input[type='text']:active,
 input.input[type='email']:active,
 input.input[type='password']:active,
 input.input[type='number']:active,
+select.input,
 textarea.input:focus,
 textarea.input:active {
   outline: none;
