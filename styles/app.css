@@ -469,6 +469,11 @@ img {
   font-style: italic;
 }
 
+.project--rating{
+  margin-bottom: 1.6em;
+  margin-top: .5em;
+}
+
 .singleProject__subtitle {
   text-transform: uppercase;
   font-size: 2.4rem;
