@@ -8,7 +8,7 @@ Tempalte for FullStack Django Beginners course.
 * Rate others work
 * Search other developers
 
-# Course Oviewview
+# Course Overview
 * Basic Djagno Overview
 * Database Design and Models
 * Static Files
