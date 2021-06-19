@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-let alertWrapper = document.querySelector('.alerts--wrapper')
+let alertWrapper = document.querySelector('.alert')
 let alertClose = document.querySelector('.alert__close')
 
 
