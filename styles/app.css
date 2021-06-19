@@ -851,7 +851,7 @@ img {
   Fixed Position Alerts Wrapper
 ========================*/
 
-.alerts--wrapper {
+.alert {
   position: fixed;
   left: 50%;
   top: 120px;
