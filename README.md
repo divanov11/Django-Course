@@ -1,6 +1,6 @@
 # DevSearch
 
-Tempalte for FullStack Django Beginners course.
+Template for FullStack Django Beginners course.
 
 # Features
 * Share Projects
