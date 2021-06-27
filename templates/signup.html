@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+  <!-- Icon - IconMonster -->
+  <link rel="stylesheet" href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css" />
+  <!-- Mumble UI -->
+  <link rel="stylesheet" href="uikit/styles/uikit.css" />
+  <!-- Dev Search UI -->
+  <link rel="stylesheet" href="styles/app.css" />
+
+  <title>DevSearch - Connect with Developers!</title>
+</head>
+
+<body>
+
+  <div class="auth">
+    <div class="card">
+      <div class="auth__header text-center">
+        <a href="/">
+          <img src="images/icon.svg" alt="icon" />
+        </a>
+        <h3>Account SignUp</h3>
+        <p>Create a new developer account</p>
+      </div>
+
+      <form action="#" class="form auth__form">
+        <!-- Input:Text -->
+        <div class="form__field">
+          <label for="formInput#text">Full Name: </label>
+          <input class="input input--text" id="formInput#text" type="text" name="text"
+            placeholder="e.g. Dennis Ivanov" />
+        </div>
+
+        <!-- Input:Email -->
+        <div class="form__field">
+          <label for="formInput#email">Email Address: </label>
+          <input class="input input--email" id="formInput#email" type="email" name="email"
+            placeholder="e.g. user@domain.com" />
+        </div>
+
+        <!-- Input:Password -->
+        <div class="form__field">
+          <label for="formInput#password">Password: </label>
+          <input class="input input--password" id="formInput#passowrd" type="password" name="password"
+            placeholder="••••••••" />
+        </div>
+        <!-- Input:Password -->
+        <div class="form__field">
+          <label for="formInput#confirm-password">Confirm Password: </label>
+          <input class="input input--password" id="formInput#confirm-passowrd" type="password" name="confirm-password"
+            placeholder="••••••••" />
+        </div>
+        <div class="auth__actions">
+          <input class="btn btn--sub btn--lg" type="submit" value="Sign  In" />
+        </div>
+      </form>
+      <div class="auth__alternative">
+        <p>Already have an Account?</p>
+        <a href="login.html">Log In</a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
