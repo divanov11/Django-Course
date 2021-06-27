@@ -24,7 +24,7 @@ Tempalte for FullStack Django Beginners course.
 * Django REST Framework
 
 # Home Page
-<img src="./resources/images/Devsearch Home.jpg">  
+![DEMO](../master/resources/images/Devsearch Home.jpg)
 
 # Projects Page
 <img src="./resources/images/DevSearch Projects.jpg">  
