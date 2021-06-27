@@ -1,6 +1,6 @@
 # DevSearch
 
-Tempalte for FullStack Django Beginners course.
+Template for FullStack Django Beginners course.
 
 # Features
 * Share Projects
@@ -8,7 +8,7 @@ Tempalte for FullStack Django Beginners course.
 * Rate others work
 * Search other developers
 
-# Course Oviewview
+# Course Overview
 * Basic Djagno Overview
 * Database Design and Models
 * Static Files
@@ -34,4 +34,15 @@ Tempalte for FullStack Django Beginners course.
 
 # User Inbox
 <img src="./resources/images/Devsearch Inbox.jpg">  
+
+
+# Installation
+* 1 - Clone repo
+* 2 - create a virtual environment and activate
+*  - pip install virtualenv
+*  - virtualenv envname
+*  - envname\scripts\activate
+* 3 - cd into project
+* 4 - pip install -r requirements.txt
+* 5 - python manage.py runserver
 
