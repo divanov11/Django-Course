@@ -24,14 +24,14 @@ Tempalte for FullStack Django Beginners course.
 * Django REST Framework
 
 # Home Page
-<img src="./images/Devsearch Home.jpg">  
+<img src="./resources/images/Devsearch Home.jpg">  
 
 # Projects Page
-<img src="./images/DevSearch Projects.jpg">  
+<img src="./resources/images/DevSearch Projects.jpg">  
 
 # Profile Page
-<img src="./images/Devsearch Profile.jpg">  
+<img src="./resources/images/Devsearch Profile.jpg">  
 
 # User Inbox
-<img src="./images/Devsearch Inbox.jpg">  
+<img src="./resources/images/Devsearch Inbox.jpg">  
 
