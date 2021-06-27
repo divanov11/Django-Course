@@ -24,7 +24,8 @@ Template for FullStack Django Beginners course.
 * Django REST Framework
 
 # Home Page
-![DEMO](../master/resources/images/Devsearch Home.jpg)
+<img src="./resources/images/DevSearch Home.jpg">  
+
 
 # Projects Page
 <img src="./resources/images/DevSearch Projects.jpg">  
