@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+  <!-- Icon - IconMonster -->
+  <link rel="stylesheet" href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css" />
+  <!-- Mumble UI -->
+  <link rel="stylesheet" href="uikit/styles/uikit.css" />
+  <!-- Dev Search UI -->
+  <link rel="stylesheet" href="styles/app.css" />
+
+  <title>DevSearch - Connect with Developers!</title>
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <div class="container container--narrow">
+      <a href="/" class="header__logo">
+        <img src="images/logo.svg" alt="DevSearch Logo" />
+      </a>
+      <nav class="header__nav">
+        <input type="checkbox" id="responsive-menu" />
+        <label for="responsive-menu" class="toggle-menu">
+          <span>Menu</span>
+          <div class="toggle-menu__lines"></div>
+        </label>
+        <ul class="header__menu">
+          <li class="header__menuItem"><a href="index.html">Developers</a></li>
+          <li class="header__menuItem"><a href="projects.html">Projects</a></li>
+          <li class="header__menuItem"><a href="inbox.html">Inbox</a></li>
+          <li class="header__menuItem"><a href="account.html">My Account</a></li>
+          <li class="header__menuItem"><a href="login.html" class="btn btn--sub">Login/Sign Up</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Section -->
+  <main class="inbox my-xl">
+    <div class="content-box">
+      <h3 class="inbox__title">New Messages(<span>2</span>)</h3>
+      <ul class="messages">
+        <li class="message message--unread">
+          <a href="message.html">
+            <span class="message__author">Dennis Ivanov</span>
+            <span class="message__subject">Working Opportunity for Web Design Company</span>
+            <span class="message__date">May 31, 2021, 04:37 PM</span>
+          </a>
+        </li>
+        <li class="message message--unread">
+          <a href="message.html">
+            <span class="message__author">Md. Shahriar Parvez</span>
+            <span class="message__subject">Up for a Freelancing Project?</span>
+            <span class="message__date">May 30, 2021, 07:47 PM</span>
+          </a>
+        </li>
+        <li class="message">
+          <a href="message.html">
+            <span class="message__author">Sulamita Ivanov</span>
+            <span class="message__subject">Another Opportunity for Side Income</span>
+            <span class="message__date">May 29, 2021, 09:45 AM</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </main>
+</body>
+
+</html>

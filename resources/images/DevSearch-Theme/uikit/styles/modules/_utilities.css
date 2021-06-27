@@ -1,0 +1,77 @@
+.container {
+  width: 92%;
+  max-width: 165rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.container--narrow {
+  width: 92%;
+  max-width: 120rem;
+}
+
+@media screen and (min-width: 1000px) {
+  .container {
+    width: 90%;
+  }
+
+  .container--narrow {
+    width: 85%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 80%;
+  }
+
+  .container--narrow {
+    width: 72%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 72%;
+  }
+
+  .container--narrow {
+    width: 65%;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.m-sm {
+  margin: 1rem;
+}
+
+.m-md {
+  margin: 3rem;
+}
+
+.m-lg {
+  margin: 5rem;
+}
+
+.m-xl {
+  margin: 8rem;
+}
+
+.my-sm {
+  margin: 1rem auto;
+}
+
+.my-md {
+  margin: 3rem auto;
+}
+
+.my-lg {
+  margin: 5rem auto;
+}
+
+.my-xl {
+  margin: 8rem auto;
+}
