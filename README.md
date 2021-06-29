@@ -1,5 +1,5 @@
 # DevSearch
-Sourcode and Resources for Django 2021 Course
+Source code and Resources for Django 2021 Course.
 
 See the full course here: https://dennisivy.teachable.com/p/django-beginners-course
 
@@ -24,27 +24,34 @@ See the full course here: https://dennisivy.teachable.com/p/django-beginners-cou
 * Postgres
 * Django REST Framework
 
-# Home Page
+# Screenshots
+
+### Home Page
 <img src="./resources/images/Devsearch Home.jpg">  
 
-
-# Projects Page
+### Projects Page
 <img src="./resources/images/DevSearch Projects.jpg">  
 
-# Profile Page
+### Profile Page
 <img src="./resources/images/Devsearch Profile.jpg">  
 
-# User Inbox
+### User Inbox
 <img src="./resources/images/Devsearch Inbox.jpg">  
 
 
 # Installation
-* 1 - Clone repo
-* 2 - create a virtual environment and activate
-*  - pip install virtualenv
-*  - virtualenv envname
-*  - envname\scripts\activate
-* 3 - cd into project
-* 4 - pip install -r requirements.txt
-* 5 - python manage.py runserver
+**1** - Clone repo
+<br/>
+**2** - Create a virtual environment and activate :
+<br/>
+         -  pip install virtualenv
+           <br/>
+         -  virtualenv envname
+           <br/>
+         -  envname\scripts\activate  
+**3** - cd into project
+<br/>
+**4** - pip install -r requirements.txt
+<br/>
+**5** - python manage.py runserver
 
