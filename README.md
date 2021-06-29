@@ -1,6 +1,7 @@
 # DevSearch
+Sourcode and Resources for Django 2021 Course
 
-Template for FullStack Django Beginners course.
+See the full course here: https://dennisivy.teachable.com/p/django-beginners-course
 
 # Features
 * Share Projects
