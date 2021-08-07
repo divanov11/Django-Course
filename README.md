@@ -15,7 +15,6 @@ See the full course here: https://dennisivy.teachable.com/p/django-beginners-cou
 * 5 - python manage.py runserver
 
 
-
 # Features
 * Share Projects
 * Message other developers
