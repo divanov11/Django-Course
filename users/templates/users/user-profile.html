@@ -1,0 +1,126 @@
+{% extends 'main.html' %}
+
+{% block content %}
+
+<!-- Main Section -->
+<main class="profile my-md">
+    <div class="container">
+        <div class="layout">
+            <div class="column column--1of3">
+                <div class="card text-center">
+                    <div class="card__body dev">
+                        <img class="avatar avatar--xl" src="{{ profile.imageURL }}" />
+                        <h2 class="dev__name">{{profile.name}}</h2>
+                        <p class="dev__title">{{profile.short_intro}}</p>
+                        <p class="dev__location">Based in {{profile.location}}</p>
+                        <ul class="dev__social">
+
+                            {% if profile.social_github %}
+                            <li>
+                                <a title="Github" href="{{profile.social_github}}" target="_blank"><i
+                                        class="im im-github"></i></a>
+                            </li>
+                            {% endif %}
+
+
+                            {% if profile.social_twitter %}
+                            <li>
+                                <a title="Twitter" href="{{profile.social_twitter}}" target="_blank"><i
+                                        class="im im-twitter"></i></a>
+                            </li>
+                            {% endif %}
+
+                            {% if profile.social_linkedin %}
+                            <li>
+                                <a title="LinkedIn" href="{{profile.social_linkedin}}" target="_blank"><i
+                                        class="im im-linkedin"></i></a>
+                            </li>
+                            {% endif %}
+
+                            {% if profile.social_website %}
+                            <li>
+                                <a title="Personal Website" href="{{profile.social_website}}" target="_blank"><i
+                                        class="im im-globe"></i></a>
+                            </li>
+                            {% endif %}
+
+                        </ul>
+                        {% if request.user.profile.id != profile.id %}
+                        <a href="{% url 'create-message' profile.id %}" class="btn btn--sub btn--lg">Send Message </a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            <div class="column column--2of3">
+                <div class="devInfo">
+                    <h3 class="devInfo__title">About Me</h3>
+                    <p class="devInfo__about">{{profile.bio}}</p>
+                </div>
+                <div class="devInfo">
+                    <h3 class="devInfo__title">Skills</h3>
+                    <div class="devInfo__skills">
+
+                        {% for skill in topSkills %}
+                        <div class="devSkill">
+                            <h4 class="devSkill__title">{{skill.name}}</h4>
+                            <p class="devSkill__info">{{skill.description}}</p>
+                        </div>
+                        {% endfor %}
+
+
+
+                        <h3 class="devInfo__subtitle">Other Skills</h3>
+                        <div class="devInfo__otherSkills">
+
+                            {% for skill in otherSkills %}
+                            <span class="tag tag--pill tag--sub tag--lg">
+                                <small>{{skill}}</small>
+                            </span>
+                            {% endfor %}
+
+                        </div>
+                    </div>
+                </div>
+                <div class="devInfo">
+                    <h3 class="devInfo__title">Projects</h3>
+                    <div class="grid grid--two">
+                        {% for project in profile.project_set.all %}
+                        <div class="column">
+                            <div class="card project">
+                                <a href="{% url 'project' project.id %}" class="project">
+                                    <img class="project__thumbnail" src="{{project.imageURL}}"
+                                        alt="project thumbnail" />
+                                    <div class="card__body">
+                                        <h3 class="project__title">{{project.title}}</h3>
+                                        <p><a class="project__author"
+                                                href="{% url 'user-profile' project.owner.id %}">By
+                                                {{project.owner.name}}</a>
+                                        </p>
+                                        <p class="project--rating">
+                                            <span style="font-weight: bold;">{{project.vote_ratio}}%</span> Postitive
+                                            Feedback ({{project.vote_total}} Vote{{project.vote_total|pluralize:"s"}})
+                                        </p>
+                                        <div class="project__tags">
+
+                                            {% for tag in project.tags.all %}
+                                            <span class="tag tag--pill tag--main">
+                                                <small>{{tag}}</small>
+                                            </span>
+                                            {% endfor %}
+
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        {% endfor %}
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+{% endblock content %}

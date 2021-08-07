@@ -1,0 +1,24 @@
+/*
+* Project: Mumble UI
+* Version: v0.1.1
+*/
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* Mumble UI Styles */
+@import url('./modules/_variables.css');
+@import url('./modules/_base.css');
+@import url('./modules/_typography.css');
+@import url('./modules/_utilities.css');
+@import url('./modules/_animation.css');
+@import url('./modules/_avatar.css');
+@import url('./modules/_button.css');
+@import url('./modules/_card.css');
+@import url('./modules/_form.css');
+@import url('./modules/_tag.css');
+@import url('./modules/_author-box.css');
+@import url('./modules/_alert.css');
+@import url('./modules/_loading.css');
+@import url('./modules/_grid.css');
+@import url('./modules/_layout.css');

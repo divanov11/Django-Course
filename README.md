@@ -1,6 +1,19 @@
 # DevSearch
+Sourcode and Resources for Django 2021 Course
 
-Template for FullStack Django Beginners course.
+See the full course here: https://dennisivy.teachable.com/p/django-beginners-course
+
+
+# Installation
+* 1 - clone repo https://github.com/divanov11/Django-2021
+* 2 - create a virtual environment and activate
+*  - pip install virtualenv
+*  - virtualenv envname
+*  - envname\scripts\activate
+* 3 - cd into project "cd django-2021"
+* 4 - pip install -r requirements.txt
+* 5 - python manage.py runserver
+
 
 # Features
 * Share Projects
@@ -8,7 +21,7 @@ Template for FullStack Django Beginners course.
 * Rate others work
 * Search other developers
 
-# Course Oviewview
+# Course Overview
 * Basic Djagno Overview
 * Database Design and Models
 * Static Files
@@ -24,14 +37,15 @@ Template for FullStack Django Beginners course.
 * Django REST Framework
 
 # Home Page
-<img src="./images/Devsearch Home.jpg">  
+<img src="./resources/images/Devsearch Home.jpg">  
+
 
 # Projects Page
-<img src="./images/DevSearch Projects.jpg">  
+<img src="./resources/images/DevSearch Projects.jpg">  
 
 # Profile Page
-<img src="./images/Devsearch Profile.jpg">  
+<img src="./resources/images/Devsearch Profile.jpg">  
 
 # User Inbox
-<img src="./images/Devsearch Inbox.jpg">  
+<img src="./resources/images/Devsearch Inbox.jpg">  
 
