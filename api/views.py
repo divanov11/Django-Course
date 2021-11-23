@@ -54,6 +54,7 @@ def projectVote(request, pk):
 
 
 @api_view(['DELETE'])
+@permission_classes([IsAuthenticated])
 def removeTag(request):
     tagId = request.data['tag']
     projectId = request.data['project']
