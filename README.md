@@ -1,16 +1,16 @@
 # DevSearch
-Sourcode and Resources for Django 2021 Course
+Sourcode and Resources for Django 5 Course
 
 See the full course here: https://dennisivy.teachable.com/p/django-beginners-course
 
 
 # Installation
-* 1 - clone repo https://github.com/divanov11/Django-2021
+* 1 - clone repo https://github.com/divanov11/Django-5-Course
 * 2 - create a virtual environment and activate
 *  - pip install virtualenv
 *  - virtualenv envname
 *  - envname\scripts\activate
-* 3 - cd into project "cd django-2021"
+* 3 - cd into project "cd Django-5-Course"
 * 4 - pip install -r requirements.txt
 * 5 - python manage.py runserver
 
