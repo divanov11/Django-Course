@@ -10,7 +10,7 @@ See the full course here: https://dennisivy.teachable.com/p/django-beginners-cou
 *  - pip install virtualenv
 *  - virtualenv envname
 *  - envname\scripts\activate
-* 3 - cd into project "cd Django-5-Course"
+* 3 - cd into project "cd Django-Course"
 * 4 - pip install -r requirements.txt
 * 5 - python manage.py runserver
 
