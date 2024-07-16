@@ -10,7 +10,6 @@ from .models import Profile, Message
 from .forms import CustomUserCreationForm, ProfileForm, SkillForm, MessageForm
 from .utils import searchProfiles, paginateProfiles
 
-
 def loginUser(request):
     page = 'login'
 

@@ -42,7 +42,7 @@
                                     <h5>{{profile.short_intro|slice:"60"}}</h5>
                                 </div>
                             </div>
-                            <p class="dev__info">{{profile.bio|slice:"150"}}</p>
+                            <p class="dev__info">{{profile.short_bio|slice:"150"}}</p>
                             <div class="dev__skills">
 
                                 {% for skill in profile.skill_set.all|slice:"5" %}
